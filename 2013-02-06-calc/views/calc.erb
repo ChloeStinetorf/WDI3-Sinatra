@@ -1,0 +1,16 @@
+<div id='header'> <h1>CALCULATOR</h1> </div>
+
+<form action='/calc' method='get'>
+  <input type="text" name="first">
+  <input type="text" name="operator">
+  <input type="text" name="second">
+  <button>Calculate!</button>
+</form>
+
+ <!-- <section>
+    <div id='first'> first number <%= @first %></div>
+    <div id='first'> second number <%= @second%></div>
+    <div id='first'> <%= @result%></div>
+ </section> -->
+
+<div id='footer'><h2>calculator says the answer is: <%= @result %></h2></div>

@@ -1,0 +1,21 @@
+<div class="header"><h1 class="bffs">BFFs</h1></div>
+
+<div class="friend_list">
+<% if @rows.any? %>
+  <% @rows.each do |row| %>
+    <h3><%= row['name'] %>, <%= row['age'] %>, <%= row['gender'] %></h3>
+    </br>
+    <% if row['image'].length > 0 %>
+      <img class="friend_image" src='<%= row['image'] %>'>
+    <% end %>
+    </br>
+    <% if row['twitter'].length > 0 %>
+      <h3><img src = "http://cdn1.iconfinder.com/data/icons/social/32/picons03.png"><a class="social_link" target="_blank" href="<%= row['twitter']%>">Twitter</a></h3>
+    <% end %>
+    <% if row['github'].length > 0 %>
+      <h3><img src="http://cdn1.iconfinder.com/data/icons/Keyamoon-IcoMoon--limited/32/github-cat.png"><a class="social_link"target="_blank" href="<%= row['github'] %>">Github</a></h3></br></br>
+    <% end %>
+  <% end %>
+<% end %>
+</div>
+

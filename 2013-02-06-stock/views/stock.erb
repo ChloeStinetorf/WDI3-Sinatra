@@ -1,0 +1,17 @@
+<div id='container'>
+<div class='text'>
+  <h2>Get a stock price:</h2>
+</div>
+<div class='text'>
+<h5>(enter the stock symbol below and click on the button)</h5>
+</div>
+
+<div id='form'>
+  <form action='/stock' method='get'>
+  <input type="text" name="symbol" autofocus>
+  <button>Get Quote!</button>
+</form>
+</div>
+
+<div class='text'><h2>Here you go: $<%= @quote%></h2></div>
+</div>

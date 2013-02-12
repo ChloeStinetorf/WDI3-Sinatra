@@ -1,0 +1,14 @@
+<div class="mainpage">
+  <h1>To Do List</h1>
+
+  <form method="link" action="/new">
+      <input type="submit" value="Create new task">
+  </form>
+
+  <% if @rows.any? %>
+    <% @rows.each do |row| %>
+      <h3>Task: <%= row['task'] %></h3>
+      <h3>Description: <%= row['description'] %></h3>
+    <% end %>
+  <% end %>
+</div>

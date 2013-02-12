@@ -1,0 +1,129 @@
+@import url(http://fonts.googleapis.com/css?family=Englebert);
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+
+.bff
+{
+  width: 270px;
+  height: 270px;
+}
+
+#home_images
+{
+ margin: 0 auto;
+ width: 820px;
+}
+
+.nbff
+{
+  width: 400px;
+  height: 400px;
+}
+
+#new_friend_images
+{
+ margin: 0 auto;
+ width: 460px;
+ display: block;
+ float: left;
+ padding-top: 60px;
+}
+
+#form
+{
+  display: block;
+  height: 400px;
+  width: 250px;
+  float: left;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+
+.input_field
+{
+  margin-top: 10px;
+}
+
+#new_friend_container
+{
+  width: 720px;
+  margin: 0 auto;
+}
+
+.bffs
+{
+  font-family: 'Englebert', sans-serif;
+  font-size: 64px;
+  padding-top: 20px;
+  line-height: 80px;
+}
+
+.header
+{
+  display: block;
+  width: 120px;
+  margin: 0 auto;
+}
+
+.nav_li
+{
+  font-family: 'Roboto', sans-serif;
+  color: black;
+}
+
+.nav_li, a:hover
+{
+  text-decoration: none;
+  color: black;
+}
+
+.nav_li, a
+{
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  display: inline;
+  padding-left: 20px;
+  padding-bottom: -5px;
+}
+
+.navbar
+{
+  padding-top: 16px;
+}
+
+body
+{
+  height: 900px;
+  background: #FFFDB7;
+}
+
+.friend_list
+{
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  padding-top: 20px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.social_link
+{
+  font-size: 24px;
+}
+
+.friend_image
+{
+  height: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

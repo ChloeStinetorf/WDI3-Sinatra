@@ -1,0 +1,52 @@
+body
+{
+  background-image: url('numbers.gif');
+}
+
+#header
+{
+  width: 604px;
+  margin: auto;
+}
+
+#footer
+{
+  width: 808px;
+  margin: auto;
+}
+
+h1
+{
+  font-family: courier;
+  font-weight: 100;
+  font-size: 100px;
+  border: 2px dashed red;
+  display: inline;
+  background: white;
+  text-align: center;
+}
+
+form
+{
+  margin: auto;
+  width: 500px;
+  text-align: center;
+  padding: 40px;
+}
+
+form input
+{
+  height: 50px;
+  width: 75px;
+}
+
+h2
+{
+  font-family: courier;
+  font-weight: 100;
+  font-size: 40px;
+  border: 2px solid red;
+  display: inline;
+  background: white;
+  text-align: center;
+}

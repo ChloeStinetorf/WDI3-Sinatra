@@ -1,0 +1,21 @@
+<div id="movie_lookup">
+  <h1 id="title">Movie Lookup</h1>
+  <h5 id="subhead">Find your favorite movie!</h5>
+
+  <form class='form-search' id='movie_form' action='/home' method='get'>
+    <input type="text" name="movie" autofocus>
+    <button class ="btn btn-primary">Get movie!</button>
+  </form>
+
+  <% if @movie_hash %>
+    <h3 class='details'>Title: <%= @movie_hash['Title'] %></h3>
+    <h3>Year: <%= @movie_hash['Year'] %></h3>
+    <h3>Rated: <%= @movie_hash['Rated'] %></h3>
+    <img id='movie_poster' src='<%= @movie_hash['Poster'] %>'>
+  <% end %>
+</div>
+
+
+
+
+
